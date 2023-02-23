@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Realtor.com</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- Style -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+  <div class="site-mobile-menu site-navbar-target">
+    <div class="site-mobile-menu-header">
+      <div class="site-mobile-menu-close mt-3">
+        <span class="icon-close2 js-menu-toggle"></span>
+      </div>
+    </div>
+    <div class="site-mobile-menu-body"></div>
+  </div>
+
+
+
+
+  <header class="site-navbar site-navbar-target" role="banner">
+
+    <div class="pl-5">
+      <div class="row align-items-center position-relative">
+
+        <div class="site-logo">
+          <a href="index.html" class="text-black"><span class="text-primary"><span
+                class="text-danger">Real</span>tor.com</a>
+        </div>
+
+        <div class="col-12">
+          <nav class="site-navigation text-right ml-auto " role="navigation">
+
+            <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block text-center">
+              <li><a href="#home-section" class="nav-link active">Buy</a></li>
+              <li><a href="#services-section" class="nav-link">Sell</a></li>
+              <li><a href="#services-section" class="nav-link">Rent</a></li>
+              <li class="has-children">
+                <a href="#about-section" class="nav-link">Mortgate</a>
+                <ul class="dropdown arrow-top">
+                  <li><a href="#team-section" class="nav-link">Find Realtors</a></li>
+                  <li><a href="#pricing-section" class="nav-link">My Home</a></li>
+                  <li><a href="#faq-section" class="nav-link">News & Insights</a></li>
+                </ul>
+              </li>
+
+              <li><a href="#why-us-section" class="nav-link">Find Realtors</a></li>
+
+              <li><a href="#testimonials-section" class="nav-link">My Home</a></li>
+              <li><a href="#blog-section" class="nav-link">News & Insights</a></li>
+              </li>
+
+              <span class="other-buttons">
+                <button class="btn btn-outline-dark btn-sm">Manage Rentals</button>
+                <button class="btn btn-outline-dark btn-sm">Advertise</button>
+              </span>
+              <span class="account">
+                <a href="#">Login</a>
+                <a href="#" class="btn btn-danger btn-sm rounded-5">Register</a>
+              </span>
+            </ul>
+
+
+          </nav>
+
+        </div>
+
+        <div class="toggle-button d-inline-block d-lg-none"><a href="#"
+            class="site-menu-toggle py-5 js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+
+
+
+      </div>
+    </div>
+
+  </header>
+
+  <div class="hero"
+    style="background-image:  linear-gradient(114deg, rgba(7, 7, 7, 0.5), rgb(7, 7, 7, 0.7)), url('images/background2.jpg');">
+
+    <div class="mainhead">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2 text-center">
+          <h1 class="mt-5 pt-5 text-white font-weight-bold">To each their home</h1>
+          <h5 class="text-white">Let’s find a home that’s perfect for you</h5>
+
+          <div class="col-lg-12 d-inline-flex mylist justify-content-center p-5">
+            <ul>
+              <li><a href="#" class="active">BUY</a></li>
+              <li><a href="#">RENT</a></li>
+              <li><a href="#">SELL</a></li>
+              <li><a href="#">PRE-APPROVAL</a></li>
+              <li class="itemse"><a href="#">JUST SOLD</a></li>
+              <li class="itemse"><a href="#">HOME VALUE</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-12 h-search-form  js-sticky-header p-2 ml-4">
+            <form>
+              <input type="search" class="rounded-10" placeholder="Address, School, City, Zip or Neighborhood">
+              <button type="button" class="bg-danger "><i class="fa fa-search"></i></button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-12 mt-5">
+    <h3 class="ml-3">Discover how we can help</h3>
+
+    <div class="col-lg-10">
+      <button type="button" onclick="buying_fields()" class="btn btn-outline-dark rounded-5">Buying</button>
+      <button type="button" onclick="renting_fields()" class="btn btn-outline-dark rounded-5">Renting</button>
+      <button type="button" onclick="selling_fields()" class="btn btn-outline-dark rounded-5">Selling</button>
+    </div>
+
+    <div class=".d-lg-inline-flex m-2 items mt-5 pt-2">
+      <div id="buying"></div>
+      <div id="renting"></div>
+      <div id="selling"></div>
+    </div>
+
+
+    <div class="newlist m-2 pt-5 ">
+      <h3 class="pb-2">New Listings in Spokane, WA</h3>
+      <a href="#" class="pb-4 mb-5">View All 152 New Listings</a>
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="shadow">
+            <div class="img-field rounded-2">
+              <label class="btn btn-primary btn-sm m-2">New</label>
+            </div>
+
+            <p class="p-2">Single-Family</p>
+            <h3 class="text-bold p-2 m-0">$644, 900</h3>
+            <p class="p-2">3 bed &nbsp; 2 bath <b>1,967</b> sqft<br />226 E Athena Ave<br />Gilbert, Az
+              46565</p>
+
+          </div>
+
+        </div>
+        <div class="col-lg-3">
+          <div class="shadow">
+            <div class="img-field1 rounded-2">
+              <label class="btn btn-primary btn-sm m-2">New</label>
+            </div>
+
+            <p class="p-2">Single-Family</p>
+            <h3 class="text-bold p-2 m-0">$644, 900</h3>
+            <p class="p-2">3 bed &nbsp; 2 bath <b>1,967</b> sqft<br />226 E Athena Ave<br />Gilbert, Az
+              46565</p>
+
+          </div>
+
+        </div>
+        <div class="col-lg-3">
+          <div class="shadow">
+            <div class="img-field2 rounded-2">
+              <label class="btn btn-primary btn-sm m-2">New</label>
+            </div>
+
+            <p class="p-2">Single-Family</p>
+            <h3 class="text-bold p-2 m-0">$644, 900</h3>
+            <p class="p-2">3 bed &nbsp; 2 bath <b>1,967</b> sqft<br />226 E Athena Ave<br />Gilbert, Az
+              46565</p>
+
+          </div>
+
+        </div>
+        <div class="col-lg-3">
+          <div class="shadow">
+            <div class="img-field3 rounded-2">
+              <label class="btn btn-primary btn-sm m-2">New</label>
+            </div>
+
+            <p class="p-2">Single-Family</p>
+            <h3 class="text-bold p-2 m-0">$644, 900</h3>
+            <p class="p-2">3 bed &nbsp; 2 bath <b>1,967</b> sqft<br />226 E Athena Ave<br />Gilbert, Az
+              46565</p>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="happing mt-5 pt-3">
+      <h3 class="mt-4">What's happening in Gilbert, AZ</h3>
+      <div class="row offset-lg-2 text-center">
+        <div class="col-lg-2 col-sm-6">
+          <h4 class="text-primary">546</h4>
+          <p>Home for sale</p>
+        </div>
+        <div class="col-lg-2">
+          <h4 class="text-primary">546</h4>
+          <p>Home for sale</p>
+        </div>
+        <div class="col-lg-2">
+          <h4 class="text-primary">546</h4>
+          <p>Home for sale</p>
+        </div>
+        <div class="col-lg-2">
+          <h4 class="text-primary">546</h4>
+          <p>Home for sale</p>
+        </div>
+      </div>
+
+      <div class=" tred offset-lg-12 text-center mt-5"
+        style="background-image:  linear-gradient(114deg, rgba(7, 7, 7, 0.5), rgb(7, 7, 7, 0.7)), url('images/image.jpg'); background-size: cover;">
+        <h3 class="mt-5 p-5">Trends</h3>
+        <p class="p-lg-5">Bella! A Las Vegas Mansion With a Custom-Designed Italian<br /> Streetscape Is the Week’s Most
+          Popular Home</p>
+
+        <a href="#" class="btn btn-outline-light rounded-5">Read More</a>
+      </div>
+
+      <div class="adverts pt-5">
+        <div class="row">
+          <div class="col-lg-3 shadow pt-3">
+            <div class="img p-2">
+              <label class="btn btn-primary btn-sm">Trends</label>
+            </div>
+            <p>Bella! A Las Vegas Mansion With a Custom-Designed Italian</p>
+          </div>
+          <div class="col-lg-3 shadow pt-3">
+            <div class="img1 p-2">
+              <label class="btn btn-primary btn-sm">Trends</label>
+            </div>
+            <p>Bella! A Las Vegas Mansion With a Custom-Designed Italian</p>
+          </div>
+          <div class="col-lg-3 shadow mt-3">
+            <div class="img2 p-2">
+              <label class="btn btn-primary btn-sm">Trends</label>
+            </div>
+            <p>Bella! A Las Vegas Mansion With a Custom-Designed Italian</p>
+          </div>
+          <div class="col-lg-3 shadow mt-3">
+            <div class="img3 p-2">
+              <label class="btn btn-primary btn-sm">Trends</label>
+            </div>
+            <p>Bella! A Las Vegas Mansion With a Custom-Designed Italian</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="row pt-5 mt-5">
+        <div class="col-lg-6">
+          <img src="images/loan.jpg" style="width: 100%;">
+        </div>
+        <div class="col-lg-6 loan-details">
+          <h1 class="pb-2 mt-5 font-weight-bold" style="font-weight: bold;">Need a home loan? Get pre-approved
+          </h1>
+          <h5 class="pb-4 mt-5">Find a lender who can offer competitive
+            mortgage
+            rates and help you with
+            pre-approval.</h5>
+          <button type="button" class="btn btn-danger rounded-5">Get pre-approval now</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 loan-details">
+          <h1 class="pb-2 mt-5 font-weight-bold" style="font-weight: bold;">Get Local Info</h1>
+          <h5 class="pb-4">Does it have pet-friendly rentals? How are the
+            schools? Get important local information on the area you're most interested in.</h5>
+
+          <div class="col-lg-12 h-search-forms p-2">
+            <form>
+              <input type="search" class="rounded-10" placeholder="Address, School, City, Zip or Neighborhood"
+                style="border: 1px solid black;">
+              <button type="button" class="bg-danger "><i class="fa fa-search"></i></button>
+            </form>
+          </div>
+
+        </div>
+        <div class="col-lg-6 pt-3">
+          <img src="images/loan.jpg" style="width: 100%;">
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="mainfoot mt-5">
+      <div class="row">
+        <div class="col-lg-2">
+          <img src="" alt="Logo">
+          <p class="pt-5">Find out how the NAR works for consumers and REALTORS®</p>
+        </div>
+        <div class="col-lg-3">
+          <b>Learn About N.A.R</b>
+          <ul>
+            <li><a href="#">About NAR</a></li>
+            <li><a href="#">Agent vs. REALTOR®</a></li>
+            <li><a href="#">Find an Appraiser</a></li>
+            <li><a href="#">Commercial Services</a></li>
+            <li><a href="#">NAR Global Alliances</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3">
+          <b>For Homeowners</b>
+          <ul>
+            <li><a href="#">Look for the R</a></li>
+            <li><a href="#">Catch up on Season 2 of 'First-Time Buyer'</a></li>
+            <li><a href="#">Real Estate Today</a></li>
+            <li><a href="#">Reasons to work with a REALTOR®</a></li>
+          </ul>
+        </div>
+
+
+        <div class="col-lg-3">
+          <b>For REALTORS®</b>
+          <ul>
+            <li><a href="#">Stand out from the .COMpetition with a FREE .realtor™ website</a></li>
+            <li><a href="#">Applications Open: 2023 Good Neighbor Awards</a></li>
+            <li><a href="#">Don’t put your life on the line for a listing</a></li>
+            <li><a href="#">Spread joy when you share your volunteer story</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer mt-5 bg-dark">
+      <div class="col-lg-12">
+        <div class="social-media m-4 p-4">
+          <button class="btn btn-info rounded-2"><i class="fa fa-facebook-f"></i></button>
+          <button class="btn btn-info rounded-2"><i class="fa fa-twitter"></i></button>
+          <button class="btn btn-info rounded-2"><i class="fa fa-linkedin"></i></button>
+          <button class="btn btn-info rounded-2"><i class="fa fa-instagram"></i></button>
+        </div>
+
+        <div class="">
+          <ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Accessibility</a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#">Media room</a></li>
+            <li><a href="#">Ad Choice</a></li>
+            <li><a href="#">Advertise with us</a></li>
+
+          </ul>
+          <p class="col-lg-12 personal m-4 pl-4">Do Not Share or Sell My Personal Information</p>
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/script.js"></script>
+
+
+  <script>
+    $(document).ready(function () {
+
+    });
+
+
+    function buying_field() {
+      $("#buyings").load('pages/buying.html');
+    }
+
+  </script>
+
+</body>
+
+</html>
