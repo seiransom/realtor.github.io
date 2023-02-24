@@ -249,7 +249,13 @@ h3 {
     }
 
     .advertse {
-        display: none;
+        display: flex;
+        width: 100%;
+        overflow: auto;
+    }
+
+    .advertse::-webkit-scrollbar {
+        width: 0px;
     }
 
     .mylist ul li {
@@ -341,8 +347,12 @@ h3 {
         font-size: 1rem;
     }
 
-    .mainfoot {
-        display: none;
+    .mainfoots .footlogo {
+        width: 200px;
+    }
+
+    .mainfoots ul li a {
+        font-size: 12px;
     }
 
     .footer ul {
@@ -355,6 +365,22 @@ h3 {
     }
 
 
+}
+
+
+@media (max-width:768px) {
+    .newlist {
+        width: 100%;
+        overflow: auto;
+    }
+
+    .newlist::-webkit-scrollbar {
+        width: 0px;
+    }
+
+    .loan-details h1 {
+        font-size: 25px;
+    }
 }
 
 /*
